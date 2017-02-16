@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ReForest</string>
+    <string name="texto_principal">AYUDEMOS A REFORESTAR</string>
+    <string name="texto_boton">ACCESO</string>
+    <string name="correo">Email o usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_registro">Registro</string>
+
+    <!-- NOMBRES DEL REGISTRO -->
+    <string name="texto_nombre">Nombre</string>
+    <string name="texto_apellidos">Apellidos</string>
+    <string name="texto_email">Email</string>
+    <string name="texto_contraseña">Contraseña</string>
+    <string name="texto_telefono">Telefono</string>
+    <string name="texto_crear_cuenta">CREAR CUENTA</string>
+    <string name="title_activity_navegacion">Navegacion</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+
+
+</resources>
