@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/linear_layout_fondo"
+        tools:elevation="?attr/actionBarSize"
         >
 
         <ImageView
@@ -26,44 +27,67 @@
             android:layout_marginTop="@dimen/margintop_logo"
             android:layout_gravity="center"
             />
-        <android.support.design.widget.TextInputLayout
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <EditText
-                android:id="@+id/tvCorreo"
-                android:layout_width="@dimen/width_contraseña"
+
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/width_correo"
-                android:hint="@string/correo"
-                android:textColor="@color/color_de_correo"
-                android:background="@drawable/cuadrado2"
-                android:layout_marginTop="@dimen/margintop_correo"
-                android:layout_below="@id/imgLogo"
-                android:layout_centerHorizontal="true"
-                android:paddingLeft="10dp"
-                android:layout_gravity="center"
-                />
-        </android.support.design.widget.TextInputLayout>
+                android:src="@android:drawable/ic_dialog_email"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dp"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                >
+
+                <EditText
+                    android:id="@+id/tvCorreo"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/width_correo"
+                    android:hint="@string/correo"
+                    android:textColor="@color/color_de_correo"
+                    android:layout_marginTop="@dimen/margintop_correo"
+                    android:layout_below="@id/imgLogo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:maxLines="1"
+
+                    android:layout_gravity="center_vertical"
+                    />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/tvContraseña"
+                android:drawableLeft="@android:drawable/ic_secure"
                 android:layout_width="@dimen/width_contraseña"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/width_correo"
                 android:hint="@string/contraseña"
                 android:textColor="@color/color_de_contraseña"
-                android:background="@drawable/cuadrado2"
                 android:layout_marginTop="@dimen/margintop_contraseña"
                 android:layout_below="@id/tvCorreo"
                 android:layout_centerHorizontal="true"
                 android:paddingLeft="10dp"
+                android:maxLines="1"
                 android:layout_gravity="center"
                 />
         </android.support.design.widget.TextInputLayout>
 
+
+
+        <!-- errorrrr-->
         <Button
             android:id="@+id/btnEntrar"
             android:layout_width="@dimen/btn_width"
@@ -76,7 +100,7 @@
             android:textSize="@dimen/btn_text_entrar"
             android:textColor="@color/btn_letra_entrar"
             android:background="@drawable/cuadrado"
-            android:onClick=""
+            android:onClick="iniciarSesion"
             android:layout_marginTop="30dp"
             android:layout_gravity="center"
             />

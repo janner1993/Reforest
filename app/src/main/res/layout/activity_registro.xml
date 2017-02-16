@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/linear_layout_fondo"
+        tools:elevation="?attr/actionBarSize"
         >
 
         <ImageView
@@ -34,12 +35,11 @@
             android:textSize="@dimen/width_correo"
             android:hint="@string/texto_nombre"
             android:textColor="@color/color_de_contraseña"
-            android:background="@drawable/cuadrado2"
-            android:layout_marginTop="@dimen/margintop_contraseña"
             android:layout_below="@id/imgLogo"
             android:layout_centerHorizontal="true"
             android:paddingLeft="10dp"
             android:layout_gravity="center"
+            android:maxLines="1"
             />
         <EditText
             android:id="@+id/tvApellidos"
@@ -48,12 +48,11 @@
             android:textSize="@dimen/width_correo"
             android:hint="@string/texto_apellidos"
             android:textColor="@color/color_de_contraseña"
-            android:background="@drawable/cuadrado2"
-            android:layout_marginTop="@dimen/margintop_contraseña"
             android:layout_below="@id/tvNombre"
             android:layout_centerHorizontal="true"
             android:paddingLeft="10dp"
             android:layout_gravity="center"
+            android:maxLines="1"
             />
         <EditText
             android:id="@+id/tvEmail"
@@ -62,12 +61,11 @@
             android:textSize="@dimen/width_correo"
             android:hint="@string/texto_email"
             android:textColor="@color/color_de_contraseña"
-            android:background="@drawable/cuadrado2"
-            android:layout_marginTop="@dimen/margintop_contraseña"
             android:layout_below="@id/tvApellidos"
             android:layout_centerHorizontal="true"
             android:paddingLeft="10dp"
             android:layout_gravity="center"
+            android:maxLines="1"
             />
         <EditText
             android:id="@+id/tvContraseña"
@@ -76,12 +74,11 @@
             android:textSize="@dimen/width_correo"
             android:hint="@string/texto_contraseña"
             android:textColor="@color/color_de_contraseña"
-            android:background="@drawable/cuadrado2"
-            android:layout_marginTop="@dimen/margintop_contraseña"
             android:layout_below="@id/tvEmail"
             android:layout_centerHorizontal="true"
             android:paddingLeft="10dp"
             android:layout_gravity="center"
+            android:maxLines="1"
             />
         <EditText
             android:id="@+id/tvTelefono"
@@ -90,12 +87,11 @@
             android:textSize="@dimen/width_correo"
             android:hint="@string/texto_telefono"
             android:textColor="@color/color_de_contraseña"
-            android:background="@drawable/cuadrado2"
-            android:layout_marginTop="@dimen/margintop_contraseña"
             android:layout_below="@id/tvContraseña"
             android:layout_centerHorizontal="true"
             android:paddingLeft="10dp"
             android:layout_gravity="center"
+            android:maxLines="1"
             />
 
         <Button
