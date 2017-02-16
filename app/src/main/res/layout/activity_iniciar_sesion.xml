@@ -85,7 +85,6 @@
             android:id="@+id/btnRegistro"
             android:layout_width="@dimen/btn_width"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:text="@string/btn_registro"
             android:textStyle="bold"

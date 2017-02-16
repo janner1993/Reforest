@@ -21,7 +21,7 @@
     <dimen name="margintop_contraseña">20dp</dimen>
     <dimen name="btn_width">300dp</dimen>
     <dimen name="btn_text_entrar">20dp</dimen>
-    <dimen name="btn_marginbottom">80dp</dimen>
+    <dimen name="btn_marginbottom">30dp</dimen>
     <dimen name="btn_marginbottom_registro">25dp</dimen>
 
 
