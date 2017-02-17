@@ -35,6 +35,11 @@ public class IniciarSesionActivity extends AppCompatActivity {
         if (correo.equals("") || contraseña.equals("")){ // el usuario no ha digitado nada
             Toast.makeText(IniciarSesionActivity.this, "LLENAR CAMPOS", Toast.LENGTH_SHORT).show(); // mostrar un mensaje
         }
+    }
 
+    public void irMenu (View v){
+        Intent intent = new Intent(this, Menu.class);
+        startActivity(intent);
+        finish();
     }
 }

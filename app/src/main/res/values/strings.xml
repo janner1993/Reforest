@@ -16,6 +16,15 @@
     <string name="texto_crear_cuenta">CREAR CUENTA</string>
     <string name="title_activity_navegacion">Navegacion</string>
 
+    <!-- NOMBRES DEL MENU -->
+
+    <string name="actividades">Actividades</string>
+    <string name="mapa">Mapa</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="otras_opciones">Otras Opciones</string>
+
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_actividades"
+            android:icon="@drawable/book_48"
+            android:title="@string/actividades" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/marker_48"
+            android:title="@string/mapa" />
+        <item
+            android:id="@+id/nav_pref"
+            android:icon="@drawable/settings_48"
+            android:title="@string/preferencias" />
+        <item
+            android:id="@+id/nav_opciones"
+            android:icon="@drawable/more_48"
+            android:title="@string/otras_opciones" />
+    </group>
+
+
+
+</menu>

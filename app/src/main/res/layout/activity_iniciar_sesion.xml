@@ -106,9 +106,9 @@
             android:textSize="@dimen/btn_text_entrar"
             android:textColor="@color/btn_letra_entrar"
             android:background="@drawable/cuadrado"
-            android:onClick="iniciarSesion"
             android:layout_marginTop="30dp"
             android:layout_gravity="center"
+            android:onClick="irMenu"
             />
 
         <Button
