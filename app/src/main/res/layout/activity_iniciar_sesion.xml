@@ -26,65 +26,74 @@
             android:layout_marginTop="@dimen/margintop_logo"
             android:layout_gravity="center"
             />
-
-
-
-        <android.support.design.widget.TextInputLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/tvCorreo"
-                android:layout_width="260dp"
-                android:layout_height="match_parent"
-                android:drawableLeft="@android:drawable/ic_dialog_email"
-                android:drawableStart="@android:drawable/ic_dialog_email"
-                android:drawablePadding="10dp"
-                android:textSize="@dimen/width_correo"
-                android:hint="@string/correo"
-                android:textColor="@color/color_de_correo"
-                android:layout_marginTop="@dimen/margintop_correo"
-                android:layout_below="@id/imgLogo"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:maxLines="1"
-
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/message_48"
                 android:layout_gravity="center_vertical"
                 />
-        </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
+                android:layout_height="wrap_content"
+                >
 
                 <EditText
-                    android:id="@+id/tvContraseña"
-                    android:layout_width="@dimen/width_contraseña"
-                    android:layout_height="wrap_content"
-                    android:drawableLeft="@android:drawable/ic_lock_idle_lock"
-                    android:drawableStart="@android:drawable/ic_lock_idle_lock"
-                    android:drawablePadding="10dp"
+                    android:id="@+id/tvCorreo"
+                    android:layout_width="260dp"
+                    android:layout_height="match_parent"
+
                     android:textSize="@dimen/width_correo"
-                    android:hint="@string/contraseña"
-                    android:textColor="@color/color_de_contraseña"
-                    android:layout_below="@id/tvCorreo"
-                    android:layout_centerHorizontal="true"
-                    android:paddingLeft="10dp"
+                    android:hint="@string/correo"
+                    android:textColor="@color/color_de_correo"
+                    android:layout_marginTop="@dimen/margintop_correo"
+                    android:layout_below="@id/imgLogo"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
                     android:maxLines="1"
 
                     android:layout_gravity="center_vertical"
                     />
             </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/lock_48"
+               android:layout_gravity="center_vertical"
+               />
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
 
 
+               <EditText
+                   android:id="@+id/tvContraseña"
+                   android:layout_width="@dimen/width_contraseña"
+                   android:layout_height="wrap_content"
+                   android:textSize="@dimen/width_correo"
+                   android:hint="@string/contraseña"
+                   android:textColor="@color/color_de_contraseña"
+                   android:layout_below="@id/tvCorreo"
+                   android:layout_centerHorizontal="true"
+                   android:paddingLeft="10dp"
+                   android:maxLines="1"
+                   android:layout_gravity="center_vertical"
+                   android:inputType="textPassword"
 
+                   />
+           </android.support.design.widget.TextInputLayout>
+       </LinearLayout>
 
-
-
-
-
-        <!-- errorrrr-->
         <Button
             android:id="@+id/btnEntrar"
             android:layout_width="@dimen/btn_width"
@@ -101,7 +110,7 @@
             android:layout_marginTop="30dp"
             android:layout_gravity="center"
             />
-       <!-- se cambio-->
+
         <Button
             android:id="@+id/btnRegistro"
             android:layout_width="@dimen/btn_width"

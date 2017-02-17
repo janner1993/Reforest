@@ -11,10 +11,11 @@
       android:layout_width="350dp"
       android:layout_height="480dp"
       android:orientation="vertical"
-      android:layout_centerHorizontal="true"
+     android:layout_centerHorizontal="true"
       android:layout_marginTop="20dp"
       tools:elevation="?attr/actionBarSize"
       android:background="@drawable/linear_layout_fondo"
+
       >
 
     <TextView

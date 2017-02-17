@@ -28,78 +28,180 @@
             android:adjustViewBounds="false"
             android:layout_gravity="center"
             />
-        <EditText
-            android:id="@+id/tvNombre"
-            android:layout_width="@dimen/width_contraseña"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/width_correo"
-            android:hint="@string/texto_nombre"
-            android:textColor="@color/color_de_contraseña"
-            android:layout_below="@id/imgLogo"
-            android:layout_centerHorizontal="true"
-            android:paddingLeft="10dp"
-            android:layout_gravity="center"
-            android:maxLines="1"
-            />
-        <EditText
-            android:id="@+id/tvApellidos"
-            android:layout_width="@dimen/width_contraseña"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/user_48"
+                android:layout_gravity="center_vertical"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/tvNombre"
+                    android:layout_width="@dimen/width_contraseña"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/width_correo"
+                    android:hint="@string/texto_nombre"
+                    android:textColor="@color/color_de_contraseña"
+                    android:layout_below="@id/imgLogo"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/width_correo"
-            android:hint="@string/texto_apellidos"
-            android:textColor="@color/color_de_contraseña"
-            android:layout_below="@id/tvNombre"
-            android:layout_centerHorizontal="true"
-            android:paddingLeft="10dp"
-            android:layout_gravity="center"
-            android:maxLines="1"
-            />
-        <EditText
-            android:id="@+id/tvEmail"
-            android:layout_width="@dimen/width_contraseña"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/user_48"
+                android:layout_gravity="center_vertical"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/tvApellidos"
+                    android:layout_width="@dimen/width_contraseña"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/width_correo"
+                    android:hint="@string/texto_apellidos"
+                    android:textColor="@color/color_de_contraseña"
+                    android:layout_below="@id/tvNombre"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/width_correo"
-            android:hint="@string/texto_email"
-            android:textColor="@color/color_de_contraseña"
-            android:layout_below="@id/tvApellidos"
-            android:layout_centerHorizontal="true"
-            android:paddingLeft="10dp"
-            android:layout_gravity="center"
-            android:maxLines="1"
-            />
-        <EditText
-            android:id="@+id/tvContraseña"
-            android:layout_width="@dimen/width_contraseña"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/message_48"
+                android:layout_gravity="center_vertical"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/tvEmail"
+                    android:layout_width="@dimen/width_contraseña"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/width_correo"
+                    android:hint="@string/texto_email"
+                    android:textColor="@color/color_de_contraseña"
+                    android:layout_below="@id/tvApellidos"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/width_correo"
-            android:hint="@string/texto_contraseña"
-            android:textColor="@color/color_de_contraseña"
-            android:layout_below="@id/tvEmail"
-            android:layout_centerHorizontal="true"
-            android:paddingLeft="10dp"
-            android:layout_gravity="center"
-            android:maxLines="1"
-            />
-        <EditText
-            android:id="@+id/tvTelefono"
-            android:layout_width="@dimen/width_contraseña"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/lock_48"
+                android:layout_gravity="center_vertical"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/tvContraseña"
+                    android:layout_width="@dimen/width_contraseña"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/width_correo"
+                    android:hint="@string/texto_contraseña"
+                    android:textColor="@color/color_de_contraseña"
+                    android:layout_below="@id/tvEmail"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/width_correo"
-            android:hint="@string/texto_telefono"
-            android:textColor="@color/color_de_contraseña"
-            android:layout_below="@id/tvContraseña"
-            android:layout_centerHorizontal="true"
-            android:paddingLeft="10dp"
-            android:layout_gravity="center"
-            android:maxLines="1"
-            />
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/phone_48"
+                android:layout_gravity="center_vertical"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/tvTelefono"
+                    android:layout_width="@dimen/width_contraseña"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/width_correo"
+                    android:hint="@string/texto_telefono"
+                    android:textColor="@color/color_de_contraseña"
+                    android:layout_below="@id/tvContraseña"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/btnCuenta"
             android:layout_width="@dimen/btn_width"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="@dimen/marginbottom_registro_cuenta"
             android:layout_centerHorizontal="true"
             android:text="@string/texto_crear_cuenta"
             android:textStyle="bold"
@@ -108,7 +210,7 @@
             android:background="@drawable/cuadrado"
             android:onClick="irIniciarSesion"
             android:layout_gravity="center"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="12dp"
             />
 
     </LinearLayout>

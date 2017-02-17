@@ -12,11 +12,11 @@
 
     <!-- Dimensiones de iniciar sesion-->
     <dimen name="textsize_correo">25sp</dimen>
-    <dimen name="width_correo">25dp</dimen>
+    <dimen name="width_correo">20dp</dimen>
     <dimen name="margintop_correo">42dp</dimen>
     <dimen name="width_logo">140dp</dimen>
     <dimen name="height_logo">120dp</dimen>
-    <dimen name="margintop_logo">44dp</dimen>
+    <dimen name="margintop_logo">30dp</dimen>
     <dimen name="width_contraseña">300dp</dimen>
     <dimen name="margintop_contraseña">20dp</dimen>
     <dimen name="btn_width">300dp</dimen>
