@@ -38,7 +38,7 @@
 
             <ImageView
                 android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_height="35dp"
                 android:src="@drawable/user_48"
                 android:layout_gravity="center_vertical"
                 />
@@ -71,7 +71,7 @@
 
             <ImageView
                 android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_height="35dp"
                 android:src="@drawable/user_48"
                 android:layout_gravity="center_vertical"
                 />
@@ -104,7 +104,7 @@
 
             <ImageView
                 android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_height="35dp"
                 android:src="@drawable/message_48"
                 android:layout_gravity="center_vertical"
                 />
@@ -137,7 +137,7 @@
 
             <ImageView
                 android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_height="35dp"
                 android:src="@drawable/lock_48"
                 android:layout_gravity="center_vertical"
                 />
@@ -171,7 +171,7 @@
 
             <ImageView
                 android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_height="35dp"
                 android:src="@drawable/phone_48"
                 android:layout_gravity="center_vertical"
                 />

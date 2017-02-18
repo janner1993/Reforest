@@ -15,7 +15,7 @@ public class Registro extends AppCompatActivity {
     }
 
     public void irIniciarSesion(View v){
-        Intent intent = new Intent(this, IniciarSesionActivity.class);
+        Intent intent = new Intent(this, IniciarSesion.class);
         startActivity(intent);
         finish();
     }

@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class IniciarSesionActivity extends AppCompatActivity {
+public class IniciarSesion extends AppCompatActivity {
     private EditText cajaCorreo;
     private EditText cajaContraseña;
 
@@ -33,7 +33,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
         String contraseña = cajaContraseña.getText().toString();
 
         if (correo.equals("") || contraseña.equals("")){ // el usuario no ha digitado nada
-            Toast.makeText(IniciarSesionActivity.this, "LLENAR CAMPOS", Toast.LENGTH_SHORT).show(); // mostrar un mensaje
+            Toast.makeText(IniciarSesion.this, "LLENAR CAMPOS", Toast.LENGTH_SHORT).show(); // mostrar un mensaje
         }
     }
 

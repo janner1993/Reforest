@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#90CAF9</color>
-    <color name="colorPrimaryDark">#f90a0909</color>
-    <color name="colorAccent">#2196F3</color>
+    <color name="colorPrimary">#2E7D32</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#1B5E20</color>
     <color name="texto">#055608</color>
     <color name="color_acceso">#055608</color>
     <color name="color_fondo">#EBE0EDDE</color>
-    <color name="fondo_pantalla">#2196F3</color>
+    <color name="fondo_pantalla">#1B5E20</color>
     <color name="color_fondo_linearlayout">#EBE0EDDE</color>
 
     <!-- Colores de la actividad iniciar sesion  -->
@@ -19,6 +19,10 @@
     <color name="btn_letra_entrar">#055608</color>
     <color name="btn_fondo_registro">#eb643904</color>
     <color name="btn_letra_registro">#055608</color>
+
+    <!-- colores de seleccionar actividades -->
+    <color name="rb_seleccionar_actividades">#FFFFFF</color>
+
 
 
 

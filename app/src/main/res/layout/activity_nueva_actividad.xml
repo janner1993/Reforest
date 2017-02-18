@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nueva_actividad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jegg.reforest.NuevaActividad"
+    android:background="@color/fondo_pantalla"
+    >
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="480dp"
+        android:orientation="vertical"
+        android:background="@drawable/linear_layout_fondo"
+        tools:elevation="?attr/actionBarSize"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/etNombreActividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Nombre"
+            android:textColorHint="@color/color_de_contraseña"
+            android:textColor="@color/color_de_contraseña"
+            android:maxLines="2"
+            android:layout_marginLeft="7dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo Actividad"
+                android:textColor="@color/color_de_contraseña"
+                android:textSize="20dp"
+                android:layout_marginLeft="7dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp">
+            </Spinner>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Añadir"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cuadrado2"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

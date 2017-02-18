@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_actividades"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jegg.reforest.SeleccionarActividades"
+    android:background="@color/fondo_pantalla"
+    >
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary">
+
+        <Button
+            style="?android:attr/buttonBarStyle"
+            android:text="Nueva Actividad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnAgregarAct"
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:textColor="@color/rb_seleccionar_actividades"
+            />
+
+        <Button
+            style="?android:attr/buttonBarStyle"
+            android:text="Continuar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnContinuar"
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:textColor="@color/rb_seleccionar_actividades"
+            />
+
+    </LinearLayout>
+
+        <CheckBox
+            android:text="Sembrar O Plantar"
+            android:textColor="@color/rb_seleccionar_actividades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rbSembrar"
+            android:buttonTint="@color/rb_seleccionar_actividades"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    <CheckBox
+        android:text="Abonar"
+        android:textColor="@color/rb_seleccionar_actividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbAbonar"
+        android:buttonTint="@color/rb_seleccionar_actividades"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/rbSembrar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Control de Malezas"
+        android:textColor="@color/rb_seleccionar_actividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbMalezas"
+        android:buttonTint="@color/rb_seleccionar_actividades"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/rbAbonar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Fertilizacion"
+        android:textColor="@color/rb_seleccionar_actividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbFertilizacion"
+        android:buttonTint="@color/rb_seleccionar_actividades"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/rbMalezas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Sustitucion de plantas"
+        android:textColor="@color/rb_seleccionar_actividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbSustitucionPlantas"
+        android:buttonTint="@color/rb_seleccionar_actividades"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/rbFertilizacion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Enfermedades"
+        android:textColor="@color/rb_seleccionar_actividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbEnfermedades"
+        android:buttonTint="@color/rb_seleccionar_actividades"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/rbSustitucionPlantas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Preparar el terreno "
+        android:textColor="@color/rb_seleccionar_actividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbPrepararTerreno"
+        android:buttonTint="@color/rb_seleccionar_actividades"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/rbEnfermedades"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

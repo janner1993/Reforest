@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IniciarSesionActivity"
+            android:name=".IniciarSesion"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -24,11 +24,15 @@
         </activity>
         <activity
             android:name=".Registro"
-            android:parentActivityName=".IniciarSesionActivity" />
+            android:parentActivityName=".IniciarSesion" />
         <activity
             android:name=".Menu"
             android:label="@string/title_activity_menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SeleccionarActividades" />
+        <activity android:name=".NuevaActividad" />
+        <activity android:name=".EscogerUbicacion" />
+        <activity android:name=".Detalles"></activity>
     </application>
 
 </manifest>

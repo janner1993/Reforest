@@ -4,7 +4,7 @@
     android:id="@+id/activity_segundo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jegg.reforest.IniciarSesionActivity"
+    tools:context="com.jegg.reforest.IniciarSesion"
     android:background="@color/fondo_pantalla"
     >
 
@@ -31,8 +31,8 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="45dp"
+                android:layout_height="35dp"
                 android:src="@drawable/message_48"
                 android:layout_gravity="center_vertical"
                 />
@@ -44,9 +44,8 @@
 
                 <EditText
                     android:id="@+id/tvCorreo"
-                    android:layout_width="260dp"
+                    android:layout_width="@dimen/ancho_correo"
                     android:layout_height="match_parent"
-
                     android:textSize="@dimen/width_correo"
                     android:hint="@string/correo"
                     android:textColor="@color/color_de_correo"
@@ -65,8 +64,8 @@
            android:layout_height="wrap_content">
 
            <ImageView
-               android:layout_width="50dp"
-               android:layout_height="50dp"
+               android:layout_width="45dp"
+               android:layout_height="35dp"
                android:src="@drawable/lock_48"
                android:layout_gravity="center_vertical"
                />
