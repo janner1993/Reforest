@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_preferecias"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jegg.reforest.Preferecias">
+
+
+        <TextView
+            android:id="@+id/TuCuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu cuenta"
+            android:textSize="22sp"
+            android:paddingLeft="7dp"
+            android:textColor="@color/color_de_contraseña"
+            android:textStyle="bold"
+            />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_acceso"
+        android:layout_below="@+id/TuCuenta"/>
+
+
+
+        <TextView
+            android:id="@+id/tvsincronizacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sincronizacion"
+            android:textSize="22sp"
+            android:paddingLeft="7dp"
+            android:textColor="@color/color_de_contraseña"
+            android:textStyle="bold"
+            android:layout_below="@id/TuCuenta"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/tvtextSincro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="permite activar/desactivar la sincronizacion    "
+            android:textSize="17sp"
+            android:paddingLeft="7dp"
+            android:textColor="@color/color_de_contraseña"
+            android:textStyle="italic"
+            android:layout_below="@id/tvsincronizacion"
+
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/tvtextSincro"
+            android:id="@+id/lysincronizar">
+            <TextView
+                android:id="@+id/tvActivarSincro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCRONIZAR AL INICIO"
+                android:textSize="17sp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/color_de_contraseña"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textColor="@color/btn_letra_entrar"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/color_acceso"
+        android:layout_below="@+id/lysincronizar"/>
+        <Button
+        android:text="Cerrar Sesion"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/btn_letra_entrar"
+        android:background="@drawable/cuadrado"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnCerrarSesion" />
+        <TextView
+        android:id="@+id/VersionApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version app"
+        android:textSize="22sp"
+        android:paddingLeft="7dp"
+        android:textColor="@color/color_de_contraseña"
+        android:textStyle="bold"
+            android:layout_marginTop="430dp"
+        />
+        <TextView
+        android:id="@+id/TextVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.0"
+        android:textSize="18sp"
+        android:paddingLeft="7dp"
+        android:textColor="@color/color_de_contraseña"
+        android:textStyle="normal"
+        android:layout_below="@id/VersionApp"
+        />
+
+</RelativeLayout>

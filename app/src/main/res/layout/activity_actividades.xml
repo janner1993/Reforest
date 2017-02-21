@@ -27,6 +27,7 @@
             android:textSize="22dp"
             android:layout_weight="1"
             android:textColor="@color/rb_seleccionar_actividades"
+            android:onClick="irNuevaActividad"
             />
 
         <Button
@@ -38,6 +39,7 @@
             android:textSize="22dp"
             android:layout_weight="1"
             android:textColor="@color/rb_seleccionar_actividades"
+            android:onClick="irEscogerUbicacion"
             />
 
     </LinearLayout>

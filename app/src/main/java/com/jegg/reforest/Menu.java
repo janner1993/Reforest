@@ -1,5 +1,6 @@
 package com.jegg.reforest;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -45,19 +46,35 @@ public class Menu extends AppCompatActivity
     }
 
 
+    @Override
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(android.view.Menu menu) {
+        MenuItem item = menu.getItem(0);
+        item.setIcon(R.drawable.ic_action_name);
+        return super.onPrepareOptionsMenu(menu);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.opcionSincronizar) {
             return true;
         }
 
+        if (id == R.id.opcionCerrarApp){
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -68,17 +85,24 @@ public class Menu extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_actividades) {
-
+            irActividades(SeleccionarActividades.class);
         } else if (id == R.id.nav_mapa) {
+            irActividades(Mapa.class);
 
         } else if (id == R.id.nav_pref) {
-
-        } else if (id == R.id.nav_opciones) {
+            irActividades(Preferecias.class);
 
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void irActividades(Class clase){
+        Intent intent = new Intent(this, clase);
+        startActivity(intent);
+        finish();
+
     }
 }
