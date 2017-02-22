@@ -14,12 +14,8 @@
             android:id="@+id/nav_pref"
             android:icon="@drawable/settings_48"
             android:title="@string/preferencias" />
-        <item
-            android:id="@+id/nav_opciones"
-            android:icon="@drawable/more_48"
-            android:title="@string/otras_opciones" />
+
     </group>
-
-
+    
 
 </menu>

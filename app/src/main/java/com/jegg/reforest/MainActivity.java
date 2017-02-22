@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void irSegundaActividad(View v){
+    public void irIniciarSesion(View v){
         Intent intent = new Intent(this, IniciarSesion.class);
         startActivity(intent);
         finish();

@@ -41,6 +41,7 @@
                 android:layout_height="35dp"
                 android:src="@drawable/user_48"
                 android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
                 />
 
             <android.support.design.widget.TextInputLayout
@@ -74,6 +75,7 @@
                 android:layout_height="35dp"
                 android:src="@drawable/user_48"
                 android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
                 />
 
             <android.support.design.widget.TextInputLayout
@@ -107,6 +109,7 @@
                 android:layout_height="35dp"
                 android:src="@drawable/message_48"
                 android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
                 />
 
             <android.support.design.widget.TextInputLayout
@@ -140,6 +143,7 @@
                 android:layout_height="35dp"
                 android:src="@drawable/lock_48"
                 android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
                 />
 
             <android.support.design.widget.TextInputLayout
@@ -174,6 +178,7 @@
                 android:layout_height="35dp"
                 android:src="@drawable/phone_48"
                 android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
                 />
 
             <android.support.design.widget.TextInputLayout

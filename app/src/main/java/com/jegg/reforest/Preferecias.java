@@ -9,5 +9,6 @@ public class Preferecias extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preferecias);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true); // habilitar el boton hacia atras
     }
 }

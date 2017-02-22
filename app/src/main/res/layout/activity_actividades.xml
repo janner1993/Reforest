@@ -7,36 +7,40 @@
 
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jegg.reforest.SeleccionarActividades"
-    android:background="@color/fondo_pantalla"
+
     >
 
     <LinearLayout
         style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary">
 
         <Button
+            android:id="@+id/btnAgregarAct"
             style="?android:attr/buttonBarStyle"
             android:text="Nueva Actividad"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/btnAgregarAct"
-            android:textSize="22dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:textColor="@color/rb_seleccionar_actividades"
             android:onClick="irNuevaActividad"
+
+
             />
 
         <Button
+            android:id="@+id/btnContinuar"
             style="?android:attr/buttonBarStyle"
             android:text="Continuar"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/btnContinuar"
-            android:textSize="22dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:textColor="@color/rb_seleccionar_actividades"
             android:onClick="irEscogerUbicacion"
@@ -44,7 +48,7 @@
 
     </LinearLayout>
 
-        <CheckBox
+    <CheckBox
             android:text="Sembrar O Plantar"
             android:textColor="@color/rb_seleccionar_actividades"
             android:layout_width="wrap_content"
@@ -55,7 +59,8 @@
             android:buttonTint="@color/rb_seleccionar_actividades"
             android:textSize="20dp"
             android:textStyle="bold"
-            />
+            android:layout_marginLeft="10dp"
+        />
 
     <CheckBox
         android:text="Abonar"
@@ -66,7 +71,7 @@
         android:buttonTint="@color/rb_seleccionar_actividades"
         android:textSize="20dp"
         android:textStyle="bold"
-
+        android:layout_marginLeft="10dp"
         android:layout_below="@+id/rbSembrar"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -82,7 +87,8 @@
         android:textStyle="bold"
         android:layout_below="@+id/rbAbonar"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
 
     <CheckBox
         android:text="Fertilizacion"
@@ -95,7 +101,8 @@
         android:textStyle="bold"
         android:layout_below="@+id/rbMalezas"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
 
     <CheckBox
         android:text="Sustitucion de plantas"
@@ -108,7 +115,8 @@
         android:textStyle="bold"
         android:layout_below="@+id/rbFertilizacion"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
 
     <CheckBox
         android:text="Enfermedades"
@@ -121,7 +129,8 @@
         android:textStyle="bold"
         android:layout_below="@+id/rbSustitucionPlantas"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
 
     <CheckBox
         android:text="Preparar el terreno "
@@ -134,7 +143,8 @@
         android:textStyle="bold"
         android:layout_below="@+id/rbEnfermedades"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
 
 
 </RelativeLayout>

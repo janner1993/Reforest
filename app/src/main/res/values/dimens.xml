@@ -20,7 +20,7 @@
     <dimen name="width_contraseña">260dp</dimen>
     <dimen name="ancho_correo">260dp</dimen>
     <dimen name="margintop_contraseña">20dp</dimen>
-    <dimen name="btn_width">300dp</dimen>
+    <dimen name="btn_width">250dp</dimen>
     <dimen name="btn_text_entrar">20dp</dimen>
     <dimen name="btn_marginbottom">30dp</dimen>
     <dimen name="btn_marginbottom_registro">25dp</dimen>

@@ -11,6 +11,7 @@ public class SeleccionarActividades extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actividades);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true); // habilitar el boton hacia atras
     }
 
     public void irNuevaActividad(View v){

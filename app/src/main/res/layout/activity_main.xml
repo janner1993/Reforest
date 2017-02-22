@@ -44,7 +44,7 @@
         />
     <Button
         android:id="@+id/btnButton"
-        android:layout_width="300dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="@string/texto_boton"
         android:textStyle="bold"
@@ -52,7 +52,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/marginbottom_acceso"
-        android:onClick="irSegundaActividad"
+        android:onClick="irIniciarSesion"
         android:textSize="@dimen/textsize_bottom"
         android:background="@drawable/cuadrado"
         android:layout_gravity="center"
