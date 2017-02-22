@@ -32,7 +32,7 @@
         </activity>
         <activity
             android:name=".Registro"
-            android:label="@string/title_activity_menu"
+            android:label="Registro"
             android:parentActivityName="com.jegg.reforest.IniciarSesion">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -47,11 +47,21 @@
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar"
             />
-        <activity android:name=".SeleccionarActividades"/>
-        <activity android:name=".NuevaActividad" />
-        <activity android:name=".EscogerUbicacion" />
-        <activity android:name=".Detalles" />
-        <activity android:name=".Preferecias"/>
+        <activity android:name=".SeleccionarActividades"
+            android:parentActivityName="com.jegg.reforest.Menu"
+            />
+        <activity android:name=".NuevaActividad"
+            android:parentActivityName="com.jegg.reforest.SeleccionarActividades"
+            />
+        <activity android:name=".EscogerUbicacion"
+            android:parentActivityName="com.jegg.reforest.SeleccionarActividades"
+            />
+        <activity android:name=".Detalles"
+            android:parentActivityName="com.jegg.reforest.EscogerUbicacion"
+            />
+        <activity android:name=".Preferecias"
+            android:parentActivityName="com.jegg.reforest.Menu"
+            />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

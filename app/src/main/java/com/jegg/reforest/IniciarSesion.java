@@ -18,8 +18,6 @@ public class IniciarSesion extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iniciar_sesion);
-       // getSupportActionBar().setDisplayHomeAsUpEnabled(true);  // habilitar el boton hacia atras
-        //getActionBar().setDisplayHomeAsUpEnabled(true);
         cajaCorreo = (EditText) findViewById(R.id.tvCorreo);
         cajaContraseña = (EditText) findViewById(R.id.tvContraseña);
     }
@@ -30,7 +28,7 @@ public class IniciarSesion extends AppCompatActivity {
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
                 startActivity(new Intent(IniciarSesion.this, MainActivity.class));
-                NavUtils.navigateUpFromSameTask(this);
+                finish();
                 return true;
         }
         return super.onOptionsItemSelected(item);
