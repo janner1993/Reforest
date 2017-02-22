@@ -52,12 +52,6 @@ public class Menu extends AppCompatActivity
         return true;
     }
 
-    @Override
-    public boolean onPrepareOptionsMenu(android.view.Menu menu) {
-        MenuItem item = menu.getItem(0);
-        item.setIcon(R.drawable.ic_action_name);
-        return super.onPrepareOptionsMenu(menu);
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
