@@ -11,11 +11,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/arbolj"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +26,7 @@
 
         <activity
             android:name=".IniciarSesion"
+            android:label="Iniciar sesion"
             android:parentActivityName="com.jegg.reforest.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -47,19 +49,24 @@
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar"
             />
-        <activity android:name=".SeleccionarActividades"
+        <activity android:name="com.jegg.reforest.SeleccionarActividades"
+            android:label="SeleccionarActividades"
             android:parentActivityName="com.jegg.reforest.Menu"
             />
-        <activity android:name=".NuevaActividad"
+        <activity android:name="com.jegg.reforest.NuevaActividad"
+            android:label="Nueva Actividad"
             android:parentActivityName="com.jegg.reforest.SeleccionarActividades"
             />
-        <activity android:name=".EscogerUbicacion"
+        <activity android:name="com.jegg.reforest.EscogerUbicacion"
+            android:label="Escoger ubicacion"
             android:parentActivityName="com.jegg.reforest.SeleccionarActividades"
             />
-        <activity android:name=".Detalles"
+        <activity android:name="com.jegg.reforest.Detalles"
+            android:label="Detalles"
             android:parentActivityName="com.jegg.reforest.EscogerUbicacion"
             />
-        <activity android:name=".Preferecias"
+        <activity android:name="com.jegg.reforest.Preferecias"
+            android:label="Preferencias"
             android:parentActivityName="com.jegg.reforest.Menu"
             />
         <!--

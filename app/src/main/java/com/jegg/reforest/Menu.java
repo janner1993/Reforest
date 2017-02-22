@@ -53,13 +53,6 @@ public class Menu extends AppCompatActivity
     }
 
     @Override
-    public boolean onPrepareOptionsMenu(android.view.Menu menu) {
-        MenuItem item = menu.getItem(0);
-        item.setIcon(R.drawable.ic_action_name);
-        return super.onPrepareOptionsMenu(menu);
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
