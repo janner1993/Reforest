@@ -62,7 +62,7 @@
             android:parentActivityName="com.jegg.reforest.SeleccionarActividades"
             />
         <activity android:name="com.jegg.reforest.Detalles"
-            android:label="Detalles"
+            android:label="Detalles Actividad"
             android:parentActivityName="com.jegg.reforest.EscogerUbicacion"
             />
         <activity android:name="com.jegg.reforest.Preferecias"

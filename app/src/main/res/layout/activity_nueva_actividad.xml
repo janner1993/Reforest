@@ -44,6 +44,7 @@
                 android:layout_marginLeft="7dp"
                 />
             <Spinner
+                android:id="@+id/splistaActividades"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -64,6 +65,7 @@
             android:background="@drawable/cuadrado"
             android:textColor="@color/btn_letra_registro"
             android:textStyle="bold"
+            android:onClick="nuevaActividad"
             />
 
     </LinearLayout>
