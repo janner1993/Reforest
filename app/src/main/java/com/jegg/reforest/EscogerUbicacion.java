@@ -12,7 +12,6 @@ public class EscogerUbicacion extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_escoger_ubicacion);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true); // habilitar el boton hacia atras
     }
 
     @Override
@@ -29,6 +28,12 @@ public class EscogerUbicacion extends AppCompatActivity {
 
     public void irDetalles (View v){
         Intent intent = new Intent(this, Detalles.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void irMapa (View v){
+        Intent intent = new Intent(this,Mapa.class);
         startActivity(intent);
         finish();
     }

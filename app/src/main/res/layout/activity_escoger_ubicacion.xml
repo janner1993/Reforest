@@ -12,13 +12,17 @@
     >
 
         <LinearLayout
+            android:id="@+id/btnAgregarLote"
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="30dp"
             android:padding="5dp"
-            android:background="@drawable/fondo_boton_nuevo_lote">
+            android:background="@drawable/fondo_boton_nuevo_lote"
+            android:onClick="irMapa"
+
+            >
 
             <ImageView
                 android:layout_width="40dp"

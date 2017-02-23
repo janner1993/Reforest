@@ -27,7 +27,6 @@ public class SeleccionarActividades extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actividades);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true); // habilitar el boton hacia atras
         mispreferencias=getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
         nombredeactividad= mispreferencias.getString("nombre","no existe la variable");
         tipoactividad = mispreferencias.getString("tipoactividad", "no existe la variable");
