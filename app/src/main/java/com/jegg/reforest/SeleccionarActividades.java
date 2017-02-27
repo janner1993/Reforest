@@ -55,7 +55,7 @@ public class SeleccionarActividades extends AppCompatActivity {
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
-                startActivity(new Intent(SeleccionarActividades.this, Menu.class));
+                startActivity(new Intent(SeleccionarActividades.this, Menu.class));// aqui activamos la navegacion hacia atras
                 finish();
                 return true;
         }

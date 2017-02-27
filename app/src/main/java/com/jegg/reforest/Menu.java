@@ -95,7 +95,6 @@ public class Menu extends AppCompatActivity
     public void irActividades(Class clase){
         Intent intent = new Intent(this, clase);
         startActivity(intent);
-        finish();
 
     }
 }
