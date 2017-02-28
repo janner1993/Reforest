@@ -13,4 +13,12 @@
     tools:context="com.jegg.reforest.Menu"
     tools:showIn="@layout/app_bar_menu">
 
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/camera_48"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="310dp"/>
+
 </RelativeLayout>
