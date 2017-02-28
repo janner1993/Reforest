@@ -14,11 +14,11 @@ public class Detalles extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {//esto es para la navegacion hacia atras
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
-                startActivity(new Intent(Detalles.this, EscogerUbicacion.class));
+                startActivity(new Intent(Detalles.this, SeleccionarActividades.class));
                 finish();
                 return true;
         }

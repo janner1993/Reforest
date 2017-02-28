@@ -21,7 +21,7 @@ public class NuevaActividad extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nueva_actividad);
         cajaNombre = (EditText) findViewById(R.id.etNombreActividad);
-        spinner = (Spinner) findViewById(R.id.splistaActividades);
+
     }
 
     @Override

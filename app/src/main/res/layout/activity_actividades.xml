@@ -43,7 +43,7 @@
             android:textStyle="bold"
             android:layout_weight="1"
             android:textColor="@color/rb_seleccionar_actividades"
-            android:onClick="irEscogerUbicacion"
+            android:onClick="irDetalles"
             />
 
     </LinearLayout>

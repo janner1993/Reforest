@@ -59,10 +59,6 @@
             android:label="Nueva Actividad"
             android:parentActivityName="com.jegg.reforest.SeleccionarActividades"
             />
-        <activity android:name="com.jegg.reforest.EscogerUbicacion"
-            android:label="Escoger ubicacion"
-            android:parentActivityName="com.jegg.reforest.SeleccionarActividades"
-            />
         <activity android:name="com.jegg.reforest.Detalles"
             android:label="Detalles Actividad"
             android:parentActivityName="com.jegg.reforest.EscogerUbicacion"

@@ -68,8 +68,8 @@ public class SeleccionarActividades extends AppCompatActivity {
         finish();
     }
 
-    public void irEscogerUbicacion(View v){
-        Intent intent = new Intent(this, EscogerUbicacion.class);
+    public void irDetalles(View v){
+        Intent intent = new Intent(this, Detalles.class);
         startActivity(intent);
         finish();
     }
